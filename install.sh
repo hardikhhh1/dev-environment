@@ -28,3 +28,7 @@ brew install ctags
 echo "Installing tmux"
 brew link autoconf automake
 brew install tmux
+
+echo "Installing oh my zsh"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
